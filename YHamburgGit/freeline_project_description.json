@@ -1,0 +1,124 @@
+{
+    "android_gradle_plugin_version": "2.2.3",
+    "apk_path": "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\outputs\\apk\\app-debug.apk",
+    "apt": {
+        "app": {
+            "aptArgs": [
+                
+            ],
+            "aptOutput": "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\generated\\source\\apt\\debug",
+            "disableDiscovery": false,
+            "enabled": true,
+            "processor": null,
+            "processorPath": "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\multidex\\1.0.1\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\transition\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.github.yaming116\\UpdateApp\\1.0.2\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.orhanobut\\logger\\1.15\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\org.xutils\\xutils\\3.3.36\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.github.sd6352051.niftydialogeffects\\niftydialogeffects\\1.0.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.redbooth\\WelcomeCoordinator\\1.0.1\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\fm.jiecao\\jiecaovideoplayer\\4.6.3\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\tv.danmaku.ijk.media\\ijkplayer-java\\0.6.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\tv.danmaku.ijk.media\\ijkplayer-armv7a\\0.6.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\tv.danmaku.ijk.media\\ijkplayer-arm64\\0.6.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\tv.danmaku.ijk.media\\ijkplayer-x86\\0.6.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\tv.danmaku.ijk.media\\ijkplayer-x86_64\\0.6.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.jakewharton\\butterknife\\8.3.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.github.zzz40500\\android-shapeLoadingView\\1.0.3.2\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\cn.bingoogolapple\\bga-adapter\\1.0.5\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\cn.bingoogolapple\\bga-refreshlayout\\1.1.7\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.databinding\\adapters\\1.2.1\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.databinding\\library\\1.2.1\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.beardedhen\\androidbootstrap\\2.3.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.github.uin3566\\AllAngleExpandableButton\\v1.0.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\cn.finalteam.rxgalleryfinal\\library\\0.0.3\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-v4\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-fragment\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-core-ui\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\animated-vector-drawable\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-vector-drawable\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.facebook.fresco\\fresco\\0.14.1\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.facebook.fresco\\drawee\\0.14.1\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.facebook.fresco\\imagepipeline\\0.14.1\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.facebook.fresco\\imagepipeline-base\\0.14.1\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-core-utils\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\25.1.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.facebook.fresco\\fbcore\\0.14.1\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.tencent.bugly\\crashreport\\2.4.0\\jars\\classes.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\intermediates\\exploded-aar\\com.antfortune.freeline\\runtime\\0.8.5\\jars\\classes.jar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\support-annotations\\25.1.0\\support-annotations-25.1.0.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.parse.bolts\\bolts-tasks\\1.4.0\\d85884acf6810a3bbbecb587f239005cbc846dc4\\bolts-tasks-1.4.0.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.android.databinding\\baseLibrary\\2.2.2\\5e227e2d794cf680dd34fb04dd564ce58d6c764d\\baseLibrary-2.2.2.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.nineoldandroids\\library\\2.4.0\\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\\library-2.4.0.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.jakewharton\\butterknife-annotations\\8.3.0\\e1707f3752463c5d240f427240a54762d7b60474\\butterknife-annotations-8.3.0.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.github.bumptech.glide\\glide\\3.7.0\\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\\glide-3.7.0.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup.picasso\\picasso\\2.5.2\\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\\picasso-2.5.2.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.oltu.oauth2\\org.apache.oltu.oauth2.client\\1.0.2\\b34e09d1cb84c4b63cedb65c5346ac44eecc22c5\\org.apache.oltu.oauth2.client-1.0.2.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.7\\2b8019b6249bb05d81d3a3094e468753e2b21311\\slf4j-api-1.7.7.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\javax.servlet\\servlet-api\\2.5\\5959582d97d8b61f4d154ca9e495aafd16726e34\\servlet-api-2.5.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\20151117140626yc-token-1.0.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\adapter-rxjava-2.0.2.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\android-util-1.0.5.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\BmobSDK_3.5.1_20160719.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\commons-lang-2.6.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\converter-gson-2.0.2.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\gson-2.6.2.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\joou-0.9.1.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\libammsdk.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\okhttp-3.3.1.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\okio-1.7.0.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\platform-0.0.72.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\retrofit-2.0.2.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\rxandroid-1.2.0.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\rxjava-1.1.6.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\smartdns-1.1.6.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\systembartint-1.0.4.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\YCloudSdk.jar;F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\libs\\ycloudsignalsdk-0.0.72.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.jakewharton\\butterknife-compiler\\8.3.0\\76865da522d6acd2800eb1d8ef44e9fa7ca0a40e\\butterknife-compiler-8.3.0.jar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\appcompat-v7\\25.1.0\\appcompat-v7-25.1.0.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\cardview-v7\\25.1.0\\cardview-v7-25.1.0.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\design\\25.1.0\\design-25.1.0.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.github.yaming116\\UpdateApp\\1.0.2\\58515a7f320ed11504660fcb604764281485f3b6\\UpdateApp-1.0.2.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.orhanobut\\logger\\1.15\\f963e96524c032b88c7385f41d48699dc1b9f08f\\logger-1.15.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\org.xutils\\xutils\\3.3.36\\22c1ffcc255c14e4d1249b38b7f7aab08cb1f544\\xutils-3.3.36.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.github.sd6352051.niftydialogeffects\\niftydialogeffects\\1.0.0\\10ef2c9b42ce3085b0913123a70ce52e272a08c4\\niftydialogeffects-1.0.0.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.redbooth\\WelcomeCoordinator\\1.0.1\\d2567a8eb2c625cd82b3448ff6098941ea1924d7\\WelcomeCoordinator-1.0.1.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\fm.jiecao\\jiecaovideoplayer\\4.6.3\\f0a082183b37558595c352666fc1b485e19a501e\\jiecaovideoplayer-4.6.3.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.jakewharton\\butterknife\\8.3.0\\7e0daf74ef795ac63e3e6bb84adc3e42fd75f437\\butterknife-8.3.0.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.github.zzz40500\\android-shapeLoadingView\\1.0.3.2\\d37fbd269d3f7e07b6b517e5e153c4dc75289caf\\android-shapeLoadingView-1.0.3.2.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\cn.bingoogolapple\\bga-adapter\\1.0.5\\6e13d498afcc046c32ffd13673538b056b77cef6\\bga-adapter-1.0.5.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\cn.bingoogolapple\\bga-refreshlayout\\1.1.7\\1f9463c3502999e7fbc879f87fd147577e257d2\\bga-refreshlayout-1.1.7.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.beardedhen\\androidbootstrap\\2.3.0\\9859d380c5567c32a126d88b003583c3b10e437c\\androidbootstrap-2.3.0.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.github.uin3566\\AllAngleExpandableButton\\v1.0.0\\bbdfc298c039f272220a878d9bd4f95ebaaab79a\\AllAngleExpandableButton-v1.0.0.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\cn.finalteam.rxgalleryfinal\\library\\0.0.3\\3cb59817306cfa02a5c4c3f86bce4a678bc5baf2\\library-0.0.3.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.fresco\\fresco\\0.14.1\\95295272000fdd39b5deefd7e0b91521da13df99\\fresco-0.14.1.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.tencent.bugly\\crashreport\\2.4.0\\e0d6eb8784e71379c6e65190f1d6771d4b8d58bb\\crashreport-2.4.0.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.google.auto\\auto-common\\0.6\\cf7212b0f8bfef12657b942df8f4f2cf032d3f41\\auto-common-0.6.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.google.auto.service\\auto-service\\1.0-rc2\\51033a5b8fcf7039159e35b6878f106ccd5fb35f\\auto-service-1.0-rc2.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup\\javapoet\\1.7.0\\4fdcf1fc27c1a8f55d1109df986c923152f07759\\javapoet-1.7.0.jar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\support-v4\\25.1.0\\support-v4-25.1.0.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\support-vector-drawable\\25.1.0\\support-vector-drawable-25.1.0.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\animated-vector-drawable\\25.1.0\\animated-vector-drawable-25.1.0.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\recyclerview-v7\\25.1.0\\recyclerview-v7-25.1.0.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\transition\\25.1.0\\transition-25.1.0.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\tv.danmaku.ijk.media\\ijkplayer-java\\0.6.0\\d35cbee4d5d1b0eba4fede6277f44d522417741\\ijkplayer-java-0.6.0.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\tv.danmaku.ijk.media\\ijkplayer-armv7a\\0.6.0\\54b26a7e5c937db02f13ee26f38524d649221bd2\\ijkplayer-armv7a-0.6.0.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\tv.danmaku.ijk.media\\ijkplayer-arm64\\0.6.0\\98688a7649642517f02a492b24323cf8adef392\\ijkplayer-arm64-0.6.0.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\tv.danmaku.ijk.media\\ijkplayer-x86\\0.6.0\\d622c56ef4f891ac8384a65e06a3b24d04a7b6b2\\ijkplayer-x86-0.6.0.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\tv.danmaku.ijk.media\\ijkplayer-x86_64\\0.6.0\\46d358ec260f786cbdf6bcbc45c5cfead6a2368d\\ijkplayer-x86_64-0.6.0.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\databinding\\library\\1.2.1\\library-1.2.1.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\databinding\\adapters\\1.2.1\\adapters-1.2.1.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.fresco\\drawee\\0.14.1\\8b0b1424a5b1d9877a69d50b4f91a1a00a207156\\drawee-0.14.1.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.fresco\\fbcore\\0.14.1\\af529b47ef58b6c1d7c70cb659452d0f013e0ea3\\fbcore-0.14.1.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.fresco\\imagepipeline\\0.14.1\\8df21ee666a59793e0b5865546369ce198d74103\\imagepipeline-0.14.1.aar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\guava\\18.0\\cce0823396aa693798f8882e64213b1772032b09\\guava-18.0.jar;C:\\Users\\salton\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.fresco\\imagepipeline-base\\0.14.1\\bb6c0d1896c912492e798997600bbcc7053fcf86\\imagepipeline-base-0.14.1.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\support-media-compat\\25.1.0\\support-media-compat-25.1.0.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\support-core-ui\\25.1.0\\support-core-ui-25.1.0.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\support-fragment\\25.1.0\\support-fragment-25.1.0.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\support-compat\\25.1.0\\support-compat-25.1.0.aar;E:\\Android\\sdk\\extras\\android\\m2repository\\com\\android\\support\\support-core-utils\\25.1.0\\support-core-utils-25.1.0.aar"
+        }
+    },
+    "apt_libraries": {
+        "dagger": false,
+        "butterknife": true
+    },
+    "auto_dependency": true,
+    "build_cache_dir": "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\freeline",
+    "build_directory": "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build",
+    "build_script": "gradlew.bat :app:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "E:\\Android\\sdk\\build-tools\\23.0.3",
+    "build_tools_version": "23.0.3",
+    "compile_sdk_directory": "E:\\Android\\sdk\\platforms\\android-24",
+    "compile_sdk_version": "android-24",
+    "databinding": [
+        
+    ],
+    "databinding_compiler_jar": "",
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "salton123.com.mengmei",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg",
+    "freeline_gradle_plugin_version": "0.8.5",
+    "ignore_resource_ids": [
+        "avd_hide_password_1",
+        "avd_hide_password_2",
+        "avd_hide_password_3",
+        "avd_show_password_1",
+        "avd_show_password_2",
+        "avd_show_password_3"
+    ],
+    "java_home": "C:\\Program Files\\Java",
+    "launcher": "com.salton123.mengmei.controller.activity.MainActivity",
+    "main_assets_directory": [
+        "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\debug\\assets",
+        "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\main\\assets"
+    ],
+    "main_jniLibs_directory": [
+        "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\debug\\jniLibs",
+        "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\main\\JniLibs"
+    ],
+    "main_jni_directory": [
+        "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\debug\\jni",
+        "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\main\\jni"
+    ],
+    "main_manifest_path": "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\main\\AndroidManifest.xml",
+    "main_project_dir": "app",
+    "main_project_name": "app",
+    "main_r_path": "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\build\\generated\\source\\r\\debug\\R.java",
+    "main_res_directory": [
+        "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\debug\\res",
+        "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\main\\res"
+    ],
+    "main_src_directory": [
+        "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\debug\\java",
+        "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\main\\java"
+    ],
+    "module_dependencies": {
+        "app": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app"
+        }
+    ],
+    "package": "com.salton123.mengmei",
+    "product_flavor": "",
+    "project_source_sets": {
+        "app": {
+            "main_assets_directory": [
+                "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\debug\\assets",
+                "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\debug\\jniLibs",
+                "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\main\\JniLibs"
+            ],
+            "main_jni_directory": [
+                "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\debug\\jni",
+                "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\main\\jni"
+            ],
+            "main_manifest_path": "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\debug\\res",
+                "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\debug\\java",
+                "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg\\app\\src\\main\\java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "retrolambda": {
+        
+    },
+    "root_dir": "F:\\03NewSaltonKeep\\AndroidCode\\w201603\\YHamburg",
+    "sdk_directory": "E:\\Android\\sdk",
+    "use_jdk8": true
+}

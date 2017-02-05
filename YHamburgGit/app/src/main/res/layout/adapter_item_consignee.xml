@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+    android:id="@+id/lay_base"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="0dip"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="11"
+                  android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="西楚霸王"
+                android:textColor="@color/black_deep"
+                android:textSize="18dip"
+                />
+
+            <TextView
+                android:id="@+id/tv_phoneNum"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="18688367977"
+                android:textColor="@color/black_deep"
+                android:textSize="18dip"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/tv_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_nickname"
+                android:layout_alignStart="@+id/tv_nickname"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="[默认]"
+                android:textColor="@color/red"
+                android:textSize="16dip"
+                />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_nickname"
+                android:layout_alignStart="@+id/tv_nickname"
+                android:layout_centerVertical="true"
+                android:text="广州市天河区天河北路622号"
+                android:textColor="@color/black_deep"
+                android:textSize="16dip"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:src="@drawable/arrows_right"
+        />
+</LinearLayout>

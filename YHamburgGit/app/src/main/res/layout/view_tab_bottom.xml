@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfcfc"
+    android:orientation="vertical">
+
+    <com.salton123.mengmei.view.tablayout.QiHuTabLayout xmlns:QiHuTab="http://schemas.android.com/apk/res-auto"
+                                                        android:id="@+id/qhtl"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_alignParentBottom="true"
+                                                        android:layout_alignParentLeft="true"
+                                                        android:layout_alignParentStart="true">
+
+        <com.salton123.mengmei.view.tablayout.QiHuTab
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            QiHuTab:animDuration="20"
+            QiHuTab:isSelected="true"
+            QiHuTab:normalDrawableResId="@drawable/ic_005_1"
+            QiHuTab:normalText="@string/tab_hot"
+            QiHuTab:normalTextColor="#666666"
+            QiHuTab:normalTextSize="11sp"
+            QiHuTab:selectedDrawableResId="@drawable/ic_005_2"
+            QiHuTab:selectedText="@string/tab_hot"
+            QiHuTab:selectedTextColor="#FFFFFF"
+            QiHuTab:selectedTextSize="12sp"
+            QiHuTab:type="left" />
+
+        <com.salton123.mengmei.view.tablayout.QiHuTab
+
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            QiHuTab:normalDrawableResId="@drawable/ic_002_1"
+            QiHuTab:normalText="声洞"
+            QiHuTab:normalTextColor="#666666"
+            QiHuTab:normalTextSize="11sp"
+            QiHuTab:selectedDrawableResId="@drawable/ic_002_2"
+            QiHuTab:selectedText="声洞"
+            QiHuTab:selectedTextColor="#FFFFFF"
+            QiHuTab:selectedTextSize="12sp" />
+
+        <com.salton123.mengmei.view.tablayout.QiHuTab
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            QiHuTab:normalDrawableResId="@drawable/ic_003_1"
+            QiHuTab:normalText="魅Live"
+            QiHuTab:normalTextColor="#666666"
+            QiHuTab:normalTextSize="11sp"
+            QiHuTab:selectedDrawableResId="@drawable/ic_003_2"
+            QiHuTab:selectedText="魅Live"
+            QiHuTab:selectedTextColor="#FFFFFF"
+            QiHuTab:selectedTextSize="12sp" />
+
+        <com.salton123.mengmei.view.tablayout.QiHuTab
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            QiHuTab:normalDrawableResId="@drawable/ic_004_1"
+            QiHuTab:normalText="面具"
+            QiHuTab:normalTextColor="#666666"
+            QiHuTab:normalTextSize="11sp"
+            QiHuTab:noticeColor="#666666"
+            QiHuTab:selectedDrawableResId="@drawable/ic_004_2"
+            QiHuTab:selectedText="面具"
+            QiHuTab:selectedTextColor="#FFFFFF"
+            QiHuTab:selectedTextSize="12sp" />
+
+        <com.salton123.mengmei.view.tablayout.QiHuTab
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            QiHuTab:animDuration="20"
+            QiHuTab:normalDrawableResId="@drawable/ic_001_1"
+            QiHuTab:normalText="我的"
+            QiHuTab:normalTextColor="#666666"
+            QiHuTab:normalTextSize="11sp"
+            QiHuTab:selectedDrawableResId="@drawable/ic_001_2"
+            QiHuTab:selectedText="我的"
+            QiHuTab:selectedTextColor="#FFFFFF"
+            QiHuTab:selectedTextSize="12sp"
+            QiHuTab:type="right" />
+
+    </com.salton123.mengmei.view.tablayout.QiHuTabLayout>
+</LinearLayout>

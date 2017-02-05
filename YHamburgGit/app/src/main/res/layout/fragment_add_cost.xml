@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="200dip"
+            android:layout_margin="10dip"
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_thing"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:hint="请输入所购买物品"
+            />
+
+        <EditText
+            android:id="@+id/et_money"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:hint="请输入消费金额"
+            android:digits=".0123456789"
+            />
+        <EditText
+            android:id="@+id/et_memo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:gravity="top|left"
+            android:hint="请输入备注"
+            android:minHeight="100dip"
+            />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:background="@drawable/takeout_bg_btn_full_green"
+            android:text="提交"
+            />
+
+    </LinearLayout>
+</ScrollView>

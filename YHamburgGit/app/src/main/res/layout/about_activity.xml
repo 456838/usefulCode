@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10.0dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip"
+                android:background="@drawable/form_h_bg"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="10.0dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="10.0dip"
+                    android:text="@string/app_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/large_6_font"/>
+
+                <TextView
+                    android:id="@+id/version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="2.0dip"
+                    android:layout_marginLeft="5.0dip"
+                    android:background="@drawable/btn_bg"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip"
+                    android:text="V 1.0"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/normal_font"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/form_bg"
+                android:lineSpacingExtra="5.0dip"
+                android:padding="10.0dip"
+                android:text="        萌萌，是一款汇集了海量萌图的表情软件，总有些词语不能达意，总有些心思不可言传。那些能说出口不想说出来的话，那些想说出来不好意思说出来的话，那些只能意会不能言传的话，用萌萌一个就够了。萌萌，聊起来！\n■ 简洁，扁平化UI，清新风格，让聊天变得轻松。\n■ 方便，简单操作，海量表情随意使用，用最短的时间，做最效率的表情分享。\n■ 她易用，必要的功能，细节上为您考虑，减少使用压力。"
+                android:textColor="@color/black_trans"
+                android:textSize="@dimen/normal_font"/>
+
+            <TextView
+                android:id="@+id/favor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/form_bg"
+                android:gravity="center_vertical"
+                android:paddingBottom="15.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingTop="15.0dip"
+                android:text="为她点个赞吧"
+                android:textColor="@color/theme"
+                android:textSize="@dimen/option_font"/>
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/form_bg"
+                android:gravity="center_vertical"
+                android:paddingBottom="15.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingTop="15.0dip"
+                android:text="联系她的主人： newsalton@outlook.com"
+                android:textColor="@color/black_trans"
+                android:textSize="@dimen/option_font"/>
+
+            <LinearLayout
+                android:id="@+id/products"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:background="@drawable/border_all_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/option_bg"
+                    android:paddingBottom="5.0dip"
+                    android:paddingLeft="10.0dip"
+                    android:paddingTop="5.0dip"
+                    android:text="我们的其他产品(敬请期待)"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_font"/>
+
+                <TableLayout
+                    android:id="@+id/table_products"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10.0dip"
+                    android:stretchColumns="0, 1, 2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

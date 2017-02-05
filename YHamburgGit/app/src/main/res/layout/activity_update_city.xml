@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.salton123.base.views.common.edittext.AutoClearEditView
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textCursorDrawable="@null"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@null"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#388E3C"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="请留下你所在城市以便我们为你匹配好友"
+        android:textColor="#AAAAAA"
+        android:textSize="14sp" />
+
+</LinearLayout>

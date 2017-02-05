@@ -1,0 +1,4 @@
+清理目录：F:\03NewSaltonKeep\AndroidCode\w201603\YHamburg\buildresult:true当前路径：F:\03NewSaltonKeep\AndroidCode\w201603\YHamburg - 副本
+日志路径：F:\03NewSaltonKeep\AndroidCode\w201603\YHamburg - 副本\cleanlog.txt
+清理目录：F:\03NewSaltonKeep\AndroidCode\w201603\YHamburg - 副本\app\build	 result:true
+清理目录：F:\03NewSaltonKeep\AndroidCode\w201603\YHamburg - 副本\build	 result:true

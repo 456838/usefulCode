@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+
+        <Spinner
+            android:id="@+id/sp_category"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:entries="@array/scenario_category"
+            android:textSize="12dp" />
+
+        <Spinner
+            android:id="@+id/sp_period"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:entries="@array/scenario_period"
+            android:textSize="12dp" />
+
+        <Spinner
+            android:id="@+id/sp_lenght"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:entries="@array/scenario_lenght"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/sp_man"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:entries="@array/scenario_man"
+            android:textSize="12dp" />
+
+        <Spinner
+            android:id="@+id/sp_woman"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:entries="@array/scenario_woman"
+            android:textSize="12dp" />
+
+        <Spinner
+            android:id="@+id/sp_holder"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:entries="@array/scenario_woman"
+            android:textSize="12dp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

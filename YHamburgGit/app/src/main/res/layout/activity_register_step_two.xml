@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/module_color">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/show_head"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <com.salton123.common.widget.CircleImageView
+                android:id="@+id/image_head"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:background="@mipmap/user_default_photo_white" />
+
+            <TextView
+                android:textSize="14.0sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="@string/regist_head_modify"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/show_camara"
+            android:layout_width="fill_parent"
+            android:layout_height="55.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/border_bottom"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:textSize="14.0sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:text="@string/regist_head_update" />
+
+            <ImageView
+                android:id="@+id/image_camara"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/camara" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:text="昵称"
+                android:textColor="@color/font_default"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:background="@null"
+                android:hint="为自己起一个帅气的名字吧"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="@color/font_default"
+                android:textColorHint="@color/hint_color"
+                android:textSize="12dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="#c8c8c8"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:text="签名"
+                android:textColor="@color/font_default"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/input_jobtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:background="@null"
+                android:hint="漂亮的个性签名是成功的开始哦"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="@color/font_default"
+                android:textColorHint="@color/hint_color"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="#c8c8c8"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:text="区域"
+                android:textColor="@color/font_default"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_province"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="天涯何处我都可以找到你啦"
+                android:inputType="text"
+                android:maxLength="16"
+                android:singleLine="true"
+                android:textColor="@color/font_default"
+                android:textColorHint="@color/hint_color"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/register_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10dp"
+            android:text="完成注册"
+            android:textColor="@color/white"
+            app:bootstrapBrand="info"
+            app:roundedCorners="true" />
+    </LinearLayout>
+</ScrollView>

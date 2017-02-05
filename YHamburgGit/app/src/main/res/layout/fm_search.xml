@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/search_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<RelativeLayout
+            android:id="@+id/touch_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            >
+    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/content_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/live_top"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#FAFAFA"
+            android:orientation="horizontal">
+
+            <com.salton123.common.widget.AutoClearEditView
+                android:id="@+id/search_input"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/layout_right"
+                android:background="@drawable/bg_search_top_btn_unactived_new"
+                android:drawableLeft="@drawable/fragment_search_smart_icon"
+                android:drawablePadding="10dp"
+                android:focusable="true"
+                android:hint="编剧 台词 风格 角色 时代"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:paddingLeft="12dp"
+                android:paddingRight="8dp"
+                android:textColor="#242424"
+                android:textColorHint="#42000000"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:id="@+id/layout_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp">
+
+                <LinearLayout
+                    android:id="@+id/search_back_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text="取消"
+                        android:textColor="#89000000"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/search_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text="搜索"
+                        android:textColor="#89000000"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <!--搜索结果-->
+        <LinearLayout
+            android:id="@+id/result_area"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/live_top"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:paddingBottom="0dp">
+
+
+        </LinearLayout>
+
+
+        <!--搜索联想-->
+        <LinearLayout
+            android:id="@+id/match_area"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/live_top"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:paddingBottom="0dp"
+            android:visibility="gone">
+
+            <ListView
+                android:id="@+id/match_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:cacheColorHint="@color/white"
+                android:divider="@drawable/list_divider"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:footerDividersEnabled="true"
+                android:headerDividersEnabled="false"
+                android:listSelector="#ffe8e8e8"
+                android:overScrollMode="never"
+                android:smoothScrollbar="true" />
+        </LinearLayout>
+
+
+        <!--搜索历史-->
+        <LinearLayout
+            android:id="@+id/history_area"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/live_top"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <include layout="@layout/inject_search_criteria" />
+
+            <cn.bingoogolapple.refreshlayout.BGARefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_listview_refresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ListView
+                    android:id="@+id/lv_listview_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:divider="@mipmap/list_divider"
+                    android:overScrollMode="never"
+                    android:padding="5dp"
+                    android:scrollbars="none" />
+            </cn.bingoogolapple.refreshlayout.BGARefreshLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

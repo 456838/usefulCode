@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColor="@color/black_deep"
+            android:textColorHint="@color/black_deep"
+            android:textSize="20dip"
+            android:textCursorDrawable="@null"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="收件人姓名"
+            android:textColor="@color/gray"
+            android:textSize="12dip"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#eeeeee"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/et_phoneNum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColor="@color/black_deep"
+            android:textColorHint="@color/black_deep"
+            android:textSize="20dip"
+            android:textCursorDrawable="@null"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="收件人电话"
+            android:textColor="@color/gray"
+            android:textSize="12dip"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#eeeeee"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColor="@color/black_deep"
+            android:textColorHint="@color/black_deep"
+            android:textSize="20dip"
+            android:textCursorDrawable="@null"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="收件人地址"
+            android:textColor="@color/gray"
+            android:textSize="12dip"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#eeeeee"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="9"
+            android:background="@null"
+            android:gravity="center_horizontal|left"
+            android:hint="设为默认"
+            android:textColor="@color/black_deep"
+            android:textColorHint="@color/black_deep"
+            android:textSize="14dp"
+            />
+
+        <CheckBox
+            android:id="@+id/cb_default"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/selector_btn_red"
+        android:text="保存"
+        android:textColor="#fff"
+        />
+</LinearLayout>

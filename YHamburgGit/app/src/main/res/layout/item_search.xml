@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.salton123.common.widget.CircleImageView
+        android:id="@+id/iv_cover"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/pic_loading" />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_cover"
+        android:layout_toEndOf="@+id/iv_cover"
+        android:textColor="@color/login_string_item"
+        tools:text="编剧：李薇薇" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_author"
+        android:layout_below="@+id/tv_author"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/bootstrap_brand_danger"
+        tools:text="大唐双龙传之紫禁之巅" />
+
+    <TextView
+        android:id="@+id/tv_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_title"
+        android:layout_below="@+id/tv_title"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="类型：普通本" />
+
+    <TextView
+        android:id="@+id/tv_wordcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@+id/tv_category"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="字数：15979" />
+
+    <TextView
+        android:id="@+id/tv_digest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_category"
+        android:layout_below="@+id/tv_category"
+        android:layout_marginRight="8dp"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="@color/text_digest"
+        android:textSize="12dp"
+        tools:text="描述：该故事讲述男主角“东子”孤身一人在上海香港独立打拼，最后闯下了一番天地。" />
+
+    <TextView
+        android:id="@+id/tv_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_title"
+        android:layout_alignStart="@+id/tv_wordcount"
+        android:layout_toRightOf="@+id/tv_author"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/icon_video_user_male"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="5" />
+
+    <TextView
+        android:id="@+id/tv_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_male"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/tv_male"
+        android:drawableLeft="@drawable/icon_video_user_female"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="4" />
+</RelativeLayout>

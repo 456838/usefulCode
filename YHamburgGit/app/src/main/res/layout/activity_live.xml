@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/remote_view_group"
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+        android:layout_gravity="right|top"
+        >
+
+        <com.ycloud.live.video.YCVideoView
+            android:id="@+id/remote_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <com.ycloud.live.video.YCVideoView
+            android:id="@+id/video_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="bottom">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="60dp"
+            >
+
+            <ListView
+                android:id="@+id/listview_chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/send_toolbox"
+                android:layout_alignParentTop="true"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:scrollbars="none"
+                />
+
+            <LinearLayout
+                android:id="@+id/send_toolbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edittext_msg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:hint="@string/input_msg"/>
+
+                <Button
+                    android:id="@+id/btn_send"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/send"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <com.fangxu.allangleexpandablebutton.AllAngleExpandableButton
+            android:id="@+id/button_expandable_90_90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            app:aebAnimDurationMillis="175"
+            app:aebButtonElevation="4dp"
+            app:aebButtonGapDp="25dp"
+            app:aebEndAngleDegree="90"
+            app:aebIsSelectionMode="false"
+            app:aebMainButtonRotateAnimDurationMillis="300"
+            app:aebMainButtonRotateDegree="-135"
+            app:aebMainButtonSizeDp="45dp"
+            app:aebRippleEffect="true"
+            app:aebStartAngleDegree="90"
+            app:aebSubButtonSizeDp="45dp"
+            />
+    </FrameLayout>
+</FrameLayout>

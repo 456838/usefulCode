@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorLightGray"
+    android:layout_below="@+id/toppanel1"
+    android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/cover"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@drawable/cover_background"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/tv_pic_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/image"
+                android:gravity="center"
+                android:text="@string/text_live_add_title_tips"
+                android:textColor="@color/colorTextG2"
+                android:textSize="16sp"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/et_title"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:bootstrapBrand="success"
+                android:hint="给直播写个标题吧"
+                android:padding="5dp"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+
+

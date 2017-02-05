@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/module_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFFFF"
+            android:layout_marginLeft="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/usernameImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/sing_in_name"
+                />
+
+            <com.salton123.common.widget.AutoClearEditView
+                android:id="@+id/loginName"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_toRightOf="@+id/usernameImg"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="请输入用户名"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:popupBackground="@drawable/takeout_bg_item_info"
+                android:singleLine="true"
+                android:textColor="@color/font_default"
+                android:textColorHint="@color/hint_color"
+                android:textSize="12dp"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="#c8c8c8"
+            />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFFFF"
+            android:layout_marginLeft="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/passwordImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/sing_in_ps"
+                />
+
+            <com.salton123.common.widget.AutoClearEditView
+                android:id="@+id/loginPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_toRightOf="@+id/passwordImg"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="请输入密码"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="@color/font_default"
+                android:textColorHint="@color/hint_color"
+                android:textSize="12dp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/login_signin"
+        android:textColor="#FFFFFF"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:roundedCorners="true"
+        app:bootstrapBrand="info"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/register"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/btn_retrieve_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/retrieve_password"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

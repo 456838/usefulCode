@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:paddingTop="20.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:lineSpacingExtra="5.0dip"
+                android:text="设置安全手势密码将在应用启动的时候进行手势密码验证，保护您的数据安全。您可以：\n1.设置或修改手势密码\n2.清空手势密码  (如果已经设置)"
+                android:textColor="@color/normal"
+                android:textSize="@dimen/tab_title_font"/>
+
+            <View
+                style="@style/hhLine"
+                android:layout_marginTop="20.0dip"/>
+
+            <LinearLayout
+                android:id="@+id/set_gesture"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/form_height"
+                android:background="@drawable/form_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/gesture_desc"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingLeft="10.0dip"
+                    android:text="设置手势密码"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/large_1_font"/>
+
+                <TextView
+                    android:id="@+id/gesture_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5.0dip"
+                    android:text="未设置"
+                    android:textColor="@color/theme"
+                    android:textSize="@dimen/normal_font"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/clear_gesture"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/form_height"
+                android:background="@drawable/form_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="10.0dip"
+                android:text="清空手势密码"
+                android:textColor="@color/red"
+                android:textSize="@dimen/large_1_font"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

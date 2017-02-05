@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <cn.bingoogolapple.refreshlayout.BGARefreshLayout
+        android:id="@+id/refreshLayout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:scrollbars="none"
+            />
+
+    </cn.bingoogolapple.refreshlayout.BGARefreshLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/lay_tologin"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dip"
+            android:gravity="center"
+            android:text="不是你懒的记账，而是你还没有登陆到本软件。点击这里即可快速登陆哦！"
+            android:textColor="@color/deep_green"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="toLogin"
+            />
+
+        <Button
+            android:id="@+id/btn_gotoLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:background="@drawable/takeout_bg_btn_full_green"
+            android:text="注册/登陆"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+</LinearLayout>
