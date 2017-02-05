@@ -1,3 +1,0 @@
-当前路径：D:\03NewSaltonKeep\AndroidCode\eclipseCode\w201603\buildClean
-日志路径：D:\03NewSaltonKeep\AndroidCode\eclipseCode\w201603\buildClean\cleanlog.txt
-清理目录：D:\03NewSaltonKeep\AndroidCode\eclipseCode\w201603\buildClean\bin	 result:true

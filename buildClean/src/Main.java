@@ -8,16 +8,14 @@ import java.util.zip.ZipOutputStream;
 public class Main {
 
 	// private static ArrayList<String> filelist = new ArrayList<String>();
-
-	static String currentPath ;
+	static String currentPath = System.getProperty("user.dir");
+	static String logPath = currentPath + File.separator
+			+ "cleanlog.txt";
 	public static void main(String args[]) throws Exception {
-		String currentPath = System.getProperty("user.dir");
-//		currentPath ="F:\\10backup\\ftpServer\\code";
+		
 		writeLog("当前路径：" + currentPath);
-		writeLog("日志路径：" + System.getProperty("user.dir") + File.separator
-				+ "cleanlog.txt");
-//		cleanBuild(currentPath);
-		cleanEclipse(currentPath);
+		writeLog("日志路径：" +logPath);
+		cleanBuild(currentPath);
 		// String targetPath = filePath;
 		// File file = ZipUtil.zip(targetPath,"F://zipCode");
 		// System.out.println(file);
@@ -26,41 +24,17 @@ public class Main {
 
 	static void writeLog(String log) {
 		System.out.println(log);
-		String logpath =currentPath+File.separator
-				+ "cleanlog.txt";
-		FileUtils.writeFile(logpath, log + "\n", true);
-	}
-	
-	static void cleanEclipse(String filePath){
-		File root = new File(filePath);
-		File[] files = root.listFiles();
-		for (File file : files) {
-//			System.out.println(file.getAbsolutePath());
-			if (file.isDirectory()) {
-				if (file.getName().equals("bin")||file.getName().equals("gen")) {
-					// boolean isdel = file.delete();
-					writeLog("清理目录：" + file.getAbsolutePath() + "\t result:"
-							+ deleteDir(file));
-				} else {
-					cleanEclipse(file.getAbsolutePath());
-				}
-			} else {
-				if (file.getName().endsWith(".class")) {
-					writeLog("清理文件：" + file.getAbsolutePath() + "\t result:"
-							+ FileUtils.deleteFile(file.getAbsolutePath()));
-				}
-			}
-		}
+		FileUtils.writeFile(logPath, log+"\n", true);
 	}
 
 	static void cleanBuild(String filePath) {
 		File root = new File(filePath);
 		File[] files = root.listFiles();
-
 		for (File file : files) {
 			if (file.isDirectory()) {
 				if (file.getName().equals("build")
-						|| file.getName().equals(".gradle")) {
+						|| file.getName().equals("bin")) {
+//					System.out.println(file.getAbsolutePath());
 					// boolean isdel = file.delete();
 					writeLog("清理目录：" + file.getAbsolutePath() + "\t result:"
 							+ deleteDir(file));
@@ -68,9 +42,7 @@ public class Main {
 					cleanBuild(file.getAbsolutePath());
 				}
 			} else {
-				if (file.getName().endsWith(".apk")
-						) {
-					System.out.println("清理目录：" + file.getAbsolutePath());
+				if (file.getName().endsWith(".apk")) {
 					writeLog("清理文件：" + file.getAbsolutePath() + "\t result:"
 							+ FileUtils.deleteFile(file.getAbsolutePath()));
 				}
